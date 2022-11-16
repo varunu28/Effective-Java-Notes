@@ -5,6 +5,7 @@ Notes about the book "Effective Java"
 
  - [Item 1: Consider static factory methods instead of constructors](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%201.md)
   - [Item 2: Consider a builder when faced with many constructor parameters](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%202.md)
+  - [Item 3: Enforce the singleton property with a private constructor or enum type](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%203.md)
 
 
 ## Concurrency
