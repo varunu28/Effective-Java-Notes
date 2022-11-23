@@ -7,6 +7,7 @@ Notes about the book "Effective Java"
   - [Item 2: Consider a builder when faced with many constructor parameters](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%202.md)
   - [Item 3: Enforce the singleton property with a private constructor or enum type](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%203.md)
   - [Item 4: Enforce noninstantiability with a private constructor](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%204.md)
+  - [Item 5: Prefer dependency injection to hardwiring resources](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%205.md)
 
 
 ## Concurrency
