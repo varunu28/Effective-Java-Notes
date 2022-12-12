@@ -11,6 +11,7 @@ Notes about the book "Effective Java"
  - [Item 6: Avoid creating unnecessary objects](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%206.md)
  - [Item 7: Eliminate obsolete object references](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%207.md)
  - [Item 8: Avoid finalizers and cleaners](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%208.md)
+ - [Item 9: Prefer try-with-resources to try-finally](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%209.md)
 
 
 ## Concurrency
