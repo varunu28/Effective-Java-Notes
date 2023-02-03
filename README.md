@@ -15,7 +15,7 @@ Notes about the book "Effective Java"
 
 ## Methods Common to All Objects
 
- - [Item 10: Obey the general contract when overriding equals](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Methods%Common%to%20All%20Objects/Item%2010.md)
+ - [Item 10: Obey the general contract when overriding equals]( https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Methods%20Common%20to%20All%20Objects/Item%2010.md)
 
 
 ## Concurrency
