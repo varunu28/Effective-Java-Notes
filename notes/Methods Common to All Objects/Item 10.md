@@ -111,5 +111,24 @@ public boolean equals(Object obj) {
  - For a non-null reference `x`, `x.equals(null)` should always return false. Though this doesn't require an explicit null check as the `instanceof` check returns a false if the underlying instance is null.
 
 ## Recipe for high-quality equals method
- - 
+ - Use `==` operation to check if both the objects point to the same reference. If they both are pointing to same reference then we can directly return true and gain in performance.
+ - If object is not of correct type then return false. This is done by using `instanceof` operator. 
+ - Cast the object to correct type after `instanceof` check has passed.
+ - For each underlying field that describes the class, check for equality of field for both objects.
+    - For primitive types `==` operator can be used.
+    - For `double` and `float` types, use `compare` method instead of `equals` as it will avoid *autoboxing* and hence will give better performance.
+    - For array types, use `Arrays.equals` method.
+    - If there is a possibility of having a null type, then use `Object.equals` method to avoid `NullPointerException`.
+    - For classes where we want to perform equality comparision based on a canonical form, it is best suited to store the canonical form before-hand so that `equals` method can make use of that instead of building the canonical form on every invocation. For example: if a class wants to compare a string attribute in case-insensitive format then it is better to store the case-insensitive version of that string before-hand.
+    - Always start by comparing the fields that are most likely to differ in order to make the `equals` method performant. 
+    - Don't compare fields that do not represent the class state. For example locks, database connections etc.
+    - Evaluate if you want to compare the derived fields or if the derived field represent the correct state of your class. 
+- Always check for three attributes of `equals` method
+    - Is it symmetric? 
+    - Is it transitive?
+    - Is it consistent?
+- Always override `hashcode` method when you override `equals` method.
+- Don't substitute `Object` class type with another class type for `equals` method. Doing this fails to override the underlying `equals` method.
 
+## Note
+Writing and testing `equals` method comes with its own set of challenges. Google's open source framework [AutoValue](https://github.com/google/auto) automatically generates these methods for you by adding a single annotation. This framework is well-tested and overloads all the above mentioned checks and balances to an external library.
