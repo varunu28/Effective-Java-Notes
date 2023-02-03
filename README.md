@@ -13,6 +13,10 @@ Notes about the book "Effective Java"
  - [Item 8: Avoid finalizers and cleaners](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%208.md)
  - [Item 9: Prefer try-with-resources to try-finally](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Creating%20and%20Destroying%20Objects/Item%209.md)
 
+## Methods Common to All Objects
+
+ - [Item 10: Obey the general contract when overriding equals](https://github.com/varunu28/Effective-Java-Notes/blob/main/notes/Methods%Common%to%20All%20Objects/Item%2010.md)
+
 
 ## Concurrency
 
